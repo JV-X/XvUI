@@ -12,9 +12,9 @@ import com.jianwei_x.xvui.utils.XvEnv;
  * -_-||
  */
 
-public class XvBaseApp extends Application {
+public class XvApp extends Application {
 
-    private static XvBaseApp instance = null;
+    private static XvApp instance = null;
 
     @Override
     public void onCreate() {
@@ -44,7 +44,7 @@ public class XvBaseApp extends Application {
         super.onTrimMemory(level);
     }
 
-    public static XvBaseApp getContext() {
+    public static XvApp getContext() {
         return instance;
     }
 

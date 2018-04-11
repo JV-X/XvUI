@@ -1,8 +1,6 @@
 package com.jianwei_x.xvui.utils;
 
-import java.io.FileInputStream;
 import java.io.InputStream;
-import java.io.OutputStream;
 import java.util.Scanner;
 
 /**

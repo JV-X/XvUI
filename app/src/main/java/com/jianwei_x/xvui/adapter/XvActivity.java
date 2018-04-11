@@ -6,7 +6,7 @@ import android.os.PersistableBundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-public class XvBaseActivity extends AppCompatActivity {
+public class XvActivity extends AppCompatActivity {
 
     private final String TAG = this.getClass().getSimpleName();
 

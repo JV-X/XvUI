@@ -1,4 +1,4 @@
-package com.jianwei_x.xvui.graphic;
+package com.jianwei_x.xvui.graphic.view;
 
 import com.jianwei_x.xvui.utils.XvEnv;
 

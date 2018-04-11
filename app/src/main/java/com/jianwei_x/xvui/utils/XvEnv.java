@@ -6,7 +6,7 @@ import android.util.Log;
 import android.view.Display;
 import android.view.WindowManager;
 
-import com.jianwei_x.xvui.adapter.XvBaseApp;
+import com.jianwei_x.xvui.adapter.XvApp;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -50,7 +50,7 @@ public class XvEnv {
     }
 
     private void initScreenSize() {
-        WindowManager wm = (WindowManager) XvBaseApp.getContext().getSystemService(Context.WINDOW_SERVICE);
+        WindowManager wm = (WindowManager) XvApp.getContext().getSystemService(Context.WINDOW_SERVICE);
 
         if (wm == null) {
             Log.d(TAG, "get display failed");
