@@ -1,4 +1,4 @@
-package com.jianwei_x.xvui.adapter;
+package com.jianwei_x.xvui;
 
 import android.app.Application;
 import android.content.res.Configuration;
@@ -15,6 +15,8 @@ import com.jianwei_x.xvui.utils.XvEnv;
 public class XvApp extends Application {
 
     private static XvApp instance = null;
+
+    private static XvRootView rootView = null;
 
     @Override
     public void onCreate() {
@@ -48,8 +50,15 @@ public class XvApp extends Application {
         return instance;
     }
 
+    public static XvRootView getRootView() {
+        return rootView;
+    }
+
     private void initXv() {
         XvEnv.i().initParams();
+
+        rootView = new XvRootView(this);
+
         loadXvComponents();
     }
 

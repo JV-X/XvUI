@@ -1,4 +1,4 @@
-package com.jianwei_x.xvui.adapter;
+package com.jianwei_x.xvui;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -11,7 +11,6 @@ public class XvActivity extends AppCompatActivity {
     private final String TAG = this.getClass().getSimpleName();
 
     private Activity context = null;
-    private XvFrameLayout rootView = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,8 +21,7 @@ public class XvActivity extends AppCompatActivity {
 
 
     private void initXvUI() {
-        rootView = new XvFrameLayout(this);
-        setContentView(rootView);
+        setContentView(XvApp.getRootView());
     }
 
     @Override

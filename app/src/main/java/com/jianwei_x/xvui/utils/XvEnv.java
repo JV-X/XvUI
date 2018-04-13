@@ -6,7 +6,7 @@ import android.util.Log;
 import android.view.Display;
 import android.view.WindowManager;
 
-import com.jianwei_x.xvui.adapter.XvApp;
+import com.jianwei_x.xvui.XvApp;
 
 import java.io.IOException;
 import java.io.InputStream;

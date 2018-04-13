@@ -1,7 +1,5 @@
 package com.jianwei_x.xvui.graphic.render;
 
-import com.jianwei_x.xvui.graphic.view.XvView;
-
 /**
  * Created by jianwei-x on 4/12/2018.
  * <p>
@@ -9,6 +7,5 @@ import com.jianwei_x.xvui.graphic.view.XvView;
  * -_-||
  */
 
-public interface XvRender {
-    void doRender(XvView view);
+public class XvRenderTask {
 }
