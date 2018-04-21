@@ -1,4 +1,4 @@
-package com.jianwei_x.xvui.utils;
+package com.jianwei_x.xv.utils;
 
 import java.io.InputStream;
 import java.util.Scanner;

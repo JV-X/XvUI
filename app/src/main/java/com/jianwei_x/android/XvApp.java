@@ -1,9 +1,9 @@
-package com.jianwei_x.xvui;
+package com.jianwei_x.android;
 
 import android.app.Application;
 import android.content.res.Configuration;
 
-import com.jianwei_x.xvui.utils.XvEnv;
+import com.jianwei_x.xv.utils.XvEnv;
 
 /**
  * Created by jianwei-x on 4/11/2018.

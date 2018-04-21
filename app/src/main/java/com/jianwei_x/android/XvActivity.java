@@ -1,4 +1,4 @@
-package com.jianwei_x.xvui;
+package com.jianwei_x.android;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,11 +6,15 @@ import android.os.PersistableBundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
+import com.jianwei_x.xv.core.UIContext;
+
 public class XvActivity extends AppCompatActivity {
 
     private final String TAG = this.getClass().getSimpleName();
 
     private Activity context = null;
+
+    private UIContext uiContext = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

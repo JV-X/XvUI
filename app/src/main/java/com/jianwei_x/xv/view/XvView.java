@@ -1,6 +1,6 @@
-package com.jianwei_x.xvui.graphic.view;
+package com.jianwei_x.xv.view;
 
-import com.jianwei_x.xvui.utils.XvEnv;
+import com.jianwei_x.xv.utils.XvEnv;
 
 import java.util.ArrayList;
 

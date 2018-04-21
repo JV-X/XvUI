@@ -1,4 +1,4 @@
-package com.jianwei_x.xvui.graphic.view;
+package com.jianwei_x.xv.view;
 
 /**
  * Created by jianwei-x on 4/14/2018.

@@ -1,4 +1,4 @@
-package com.jianwei_x.xvui.utils;
+package com.jianwei_x.xv.utils;
 
 import android.content.Context;
 import android.util.DisplayMetrics;
@@ -6,7 +6,7 @@ import android.util.Log;
 import android.view.Display;
 import android.view.WindowManager;
 
-import com.jianwei_x.xvui.XvApp;
+import com.jianwei_x.android.XvApp;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -82,6 +82,10 @@ public class XvEnv {
         }
 
         Log.d(TAG, "CPU INFO : " + s); // TODO
+    }
+
+    public static InputStream getReources(String path) {
+        return null;// TODO: 4/21/2018
     }
 
     class CPUInfo {

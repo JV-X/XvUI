@@ -1,4 +1,4 @@
-package com.jianwei_x.xvui.utils;
+package com.jianwei_x.xv.utils;
 
 /**
  * Created by jianwei-x on 4/14/2018.
