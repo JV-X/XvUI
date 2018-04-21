@@ -83,4 +83,8 @@ public class XvEnv {
 
         Log.d(TAG, "CPU INFO : " + s); // TODO
     }
+
+    class CPUInfo {
+        int core;
+    }
 }

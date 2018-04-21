@@ -3,7 +3,6 @@ package com.jianwei_x.xvui.graphic.view;
 import com.jianwei_x.xvui.utils.XvEnv;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by jianwei-x on 4/11/2018.
@@ -12,8 +11,7 @@ import java.util.List;
  * -_-||
  */
 
-public class XvView {
-
+public abstract class XvView {
 
     private XvView parent = null;
     private ArrayList<XvView> childrens = null;
@@ -27,13 +25,21 @@ public class XvView {
 
     }
 
+    //根据设计尺寸求出实际宽
     protected static int width(int designWidth) {
         return designWidth / XvEnv.DESIGN_SCREEN_WIDTH * XvEnv.SCREEN_WIDTH;
     }
 
+    //根据设计尺寸求出实际高
     protected static int height(int designHeight) {
         return designHeight / XvEnv.DESIGN_SCREEN_HEIGHT * XvEnv.SCREEN_HEIGHT;
     }
 
+    protected abstract void draw(DrawParam param);
+
+    static class DrawParam {
+
+
+    }
 
 }
